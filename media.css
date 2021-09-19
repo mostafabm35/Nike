@@ -1,0 +1,65 @@
+@media only screen and (min-width: 0px) and (max-width: 800px){
+    .mainContant{
+        flex-direction: column;
+        height: 800px;
+    }
+    .h1t {
+        padding-top: 20px ;
+        }
+        .firstone{
+            width: 100%;
+            }
+         .secend{
+            width: 100%;
+
+         }
+         .cont2{
+            flex-direction: column-reverse;
+            height: 700px;
+         }
+         .onepage{
+             width: 100%;
+             height: 250px;
+
+         }
+         .twopage{
+             width: 100%;
+             height: 200px;
+         }
+         .niceimg{
+            height: 250px;
+            width: 350px;
+         }
+         .chooseit{
+             justify-content: space-evenly;
+         }
+}
+@media only screen and (min-width: 0px) and (max-width: 548px){
+    ul li:nth-child(5){
+        display: block;
+        margin-top: -5px;
+        margin-right: -10px;
+    }
+    .img{
+        padding-left: 60px;
+    }
+    ul li:nth-child(1){ display: none;}
+    ul li:nth-child(2){ display: none;}
+    ul li:nth-child(3){ display: none;}
+    ul li:nth-child(4){ display: none;}
+        .ball1{
+        height: 240px;
+        width: 240px;
+
+        }
+        .tchImg{
+            height: 330px;
+            width: 310px;
+        }
+        .niceimg{
+            height: 210px;
+            width: 310px;
+         }
+
+
+}
